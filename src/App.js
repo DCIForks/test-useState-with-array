@@ -22,7 +22,7 @@ function App() {
   }
 
   const getRandomNumber = () => {
-    return Math.ceil(Math.random() * 10)
+    return Math.floor(Math.random() * 10)
   }
 
   const getRandomLetter = () => {
